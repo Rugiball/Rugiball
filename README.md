@@ -1,5 +1,7 @@
 ### Ello, guys.
 
+Rugiball here, yes I do github now. I am a teenage dude who's learning how to code. So yeah.
+
 <!--
 **Rugiball/Rugiball** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
