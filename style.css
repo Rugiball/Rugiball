@@ -1,8 +1,9 @@
 body{
-    background-color: rgb(92, 150, 201);
+    background-color: rgb(31, 48, 63);
     font-family: "Courier New", Courier, monospace;
     font-stretch: condensed;
     text-align: left;
+    color: rgb(125, 202, 125);
 }
 
 h1{
@@ -20,15 +21,31 @@ sup{
 }
 
 button{
-    background-color: rgb(136, 238, 106);
+    background-color: rgb(61, 61, 61);
     font-family: "Courier New", Courier, monospace;
     font-size: smaller;
     align-self: center;
     display: block;
     margin: auto;
+    color: aqua;
 }
 
 .main-part{
     text-align: center;
     
+}
+
+a{
+    color: rgb(21, 255, 52);
+}
+
+.box{
+
+    width: fit-content;
+    height: fit-content;
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 10px;
+    align-self: center;
+    background-color: rgb(23, 37, 28);
 }
