@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(29, 0, 22);
+    background-color: rgb(18, 44, 3);
     font-family: "Courier New", Courier, monospace;
     font-stretch: condensed;
     text-align: left;
-    color: rgb(57, 158, 184);
+    color: rgb(66, 167, 71);
 }
 
 h1{
@@ -21,13 +21,13 @@ sup{
 }
 
 button{
-    background-color: rgb(82, 63, 83);
+    background-color: rgb(30, 116, 52);
     font-family: "Courier New", Courier, monospace;
     font-size: smaller;
     align-self: center;
     display: block;
     margin: auto;
-    color: rgb(255, 217, 0);
+    color: rgb(0, 255, 21);
 }
 
 .main-part{
@@ -43,9 +43,74 @@ a{
 
     width: fit-content;
     height: fit-content;
-    border: 3px dotted rgb(60, 107, 129);
+    border: 3px dotted rgb(130, 172, 63);
     padding: 10px;
     margin: 10px;
     align-self: center;
-    background-color: rgb(85, 60, 14);
+    background-color: rgb(60, 85, 14);
+    color: rgb(123, 241, 202);
 }
+.box2{
+
+    width: fit-content;
+    height: fit-content;
+    border: 3px groove rgb(79, 177, 70);
+    padding: 10px;
+    margin: 10px;
+    align-self: center;
+    background-color: rgb(68, 77, 30);
+    color: rgb(95, 218, 105);
+}
+
+small{
+    font-size: smaller;
+}
+
+::selection{
+    background-color: rgb(21, 88, 25);
+}
+
+.popper_upper{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: none;
+}
+
+.popper_upper button{
+    display: block;
+    margin: 0 auto;
+}
+
+.show {
+    display: block;
+}
+
+.temporary{
+
+    width: fit-content;
+    height: fit-content;
+    border: 3px dotted rgb(79, 177, 70);
+    padding: 10px;
+    margin: 10px;
+    align-self: center;
+    background-color: rgb(68, 77, 30);
+    color: rgb(95, 218, 105);
+    align-items: center;
+    font-size: 5px;
+}
+
+.buttonly{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+* {
+    text-shadow: 2px 2px 5px rgb(36, 255, 47);
+  }
